@@ -1,0 +1,20 @@
+@import './palette.scss';
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico&display=swap');
+
+.home-container{
+  width: 65%;
+  margin: auto;
+
+  .greeting{
+    text-align: center;
+
+    p{
+      font-size: 1.3rem;
+    }
+  }
+
+  p{
+    font-size: 1rem;
+    font-family: "Lato";
+  }
+}
