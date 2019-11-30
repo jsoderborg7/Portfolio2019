@@ -1,0 +1,15 @@
+@import './palette.scss';
+
+.App{
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .footer{
+    position: absolute;
+    bottom: 0;
+  }
+
+}

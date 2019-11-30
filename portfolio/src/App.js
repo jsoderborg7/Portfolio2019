@@ -8,7 +8,7 @@ import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-import './App.css';
+import './SASS/app.scss';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <Route path='/resume' component={Resume} />
         <Route path='/contact' component={Contact} />
       </div>
-      <Footer />
+      <Footer className="footer" />
     </div>
   );
 }

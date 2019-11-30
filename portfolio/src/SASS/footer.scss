@@ -1,11 +1,12 @@
 @import './palette.scss';
 
 .footer-container{
+  height: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  	position: absolute;
-	left: 0; right: 0; bottom:0;
+  background-color: $color1;
+  opacity: .7;
   p{
     font-weight: bold;
     color: $color4;
