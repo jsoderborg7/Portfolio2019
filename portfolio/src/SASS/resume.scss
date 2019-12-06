@@ -1,0 +1,33 @@
+@import './palette.scss';
+
+
+.resume-container{
+  display: flex;
+  justify-content: center;
+
+  img{
+    width: 20%;
+    height: 100%;
+  }
+
+  a{
+    align-self: center;
+    margin: 5%;
+
+    button{
+      padding: 12% 20%;
+      border-radius: 5px;
+      background-color: $color2;
+      border: none;
+      color: whitesmoke;
+      font-size: 1rem;
+      text-align: center;
+      cursor: pointer;
+
+      &:hover{
+        background-color: $color4;
+      }
+    }
+  }
+}
+
