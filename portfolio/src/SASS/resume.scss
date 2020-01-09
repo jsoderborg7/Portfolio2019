@@ -3,6 +3,7 @@
 
 .resume-container{
   display: flex;
+  flex-direction: column;
   justify-content: center;
 
   img{
@@ -10,9 +11,13 @@
     height: 100%;
   }
 
+  .pdf{
+    border: 1px solid $color2;
+  }
+
   a{
     align-self: center;
-    margin: 5%;
+    margin: 3%;
 
     button{
       padding: 12% 20%;

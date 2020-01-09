@@ -10,9 +10,8 @@ body {
   width: 100vw;
   height: 100vh;
   position: relative;
-  background-image: url('./assets/background2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* background-image: url('./assets/background4.jpg');
+  background-size: cover; */
   box-sizing: border-box;
   font-size: 62.5%;
 }
