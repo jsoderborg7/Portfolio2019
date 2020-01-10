@@ -5,16 +5,17 @@
   box-sizing: border-box;
   width: 95%;
   margin: auto;
+  padding: 2rem 0;
   color: $color4;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-content: flex-start;
-  border-bottom: 1.5px solid $color3;
+  // border-bottom: 1.5px solid $color3;
 
 
   .text-container{
-    width: 90%;
-    margin-bottom: 5rem;
+    width: 68%;
+    margin-left: 2rem;
 
     img{
       width: 25%;
@@ -23,7 +24,7 @@
     }
   
     .text{
-      width: 40%;
+      width: 50%;
       .greeting{
         p{
           display: flex;
@@ -51,6 +52,7 @@
           margin: auto;
           font-size: 1rem;
           font-family: "Lato";
+          line-height: 2rem;
         }
 
         h2{
@@ -66,11 +68,11 @@
   }
 
     .nav-container{
-      width: 35%;
+      width: 22%;
       margin: auto;
       display: flex;
-      justify-content: space-evenly;
-      align-items: flex-start;
+      justify-content: space-between;
+      align-items: flex-end;
       margin-top: 1rem;
       // border-bottom: 1.5px solid $color3;
 

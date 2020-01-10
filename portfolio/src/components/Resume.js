@@ -8,16 +8,19 @@ import ResumePDF from '../assets/resume.pdf'
 const Resume = () =>{
   return(
     <div className="resume-container">
-      {/* <img src={ResumeImg} alt="Resume" /> */}
-      <PDFReader
-      className="pdf"
-        url={ResumePDF}
-      />
+      <div className="greeting">        
+        <h1>Resume</h1>
+      </div>
+      <div className="resume-box">
+        <PDFReader
+          url={ResumePDF}
+        />
 
-      <a href='https://drive.google.com/file/d/1KosFNaF5NmhxDCuZYeWfKVdIDWB3u-Wn/view?usp=sharing'
-      target='_blank'>
-        <button>Download</button>
-      </a>
+        <a href='https://drive.google.com/open?id=1KosFNaF5NmhxDCuZYeWfKVdIDWB3u-Wn'
+        target='_blank'>
+          <button>Download</button>
+        </a>
+      </div>
     </div>
   )
 }

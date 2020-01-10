@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* background-color: #E1F0C4; */
 
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   position: relative;
   /* background-image: url('./assets/background4.jpg');

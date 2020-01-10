@@ -12,11 +12,11 @@ const Header = () =>{
         <div className="text">
           <div className="greeting">
             <p>Hi! I'm<h1>Jenn Soderborg</h1></p>
-            
           </div>
           <div className="small-text">
-            <p>I'm a<h2>Web Developer</h2>from Utah.</p>
-            <p>When I'm not coding, I love all things water, baking, and music. Thanks for stopping by!</p>      </div>        
+            <p>and I'm a<h2>Web Developer</h2>from Utah.</p>
+            <p>I'm an easygoing kind of person with a passion for creating, and I can't wait to work with you!</p>      
+          </div>        
         </div>
       </div>
       <div className="nav-container">

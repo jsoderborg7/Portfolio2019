@@ -5,7 +5,9 @@ import '../SASS/contact.scss';
 const Contact = () =>{
   return(
     <div className="contact-container">
-      <p>Talk to me!</p>
+      <div className="greeting">        
+        <h1>Talk to me!</h1>
+      </div>
       <form action="https://formspree.io/mrgbpqop" method="POST">
         <div className="contact-field">
           <label>
