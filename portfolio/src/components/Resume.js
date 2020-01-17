@@ -2,7 +2,6 @@ import React from 'react';
 import '../SASS/resume.scss';
 import {PDFReader} from 'reactjs-pdf-reader';
 
-import ResumeImg from '../assets/resume.png'
 import ResumePDF from '../assets/resume.pdf'
 
 const Resume = () =>{
@@ -16,7 +15,7 @@ const Resume = () =>{
           url={ResumePDF}
         />
 
-        <a href='https://drive.google.com/open?id=1KosFNaF5NmhxDCuZYeWfKVdIDWB3u-Wn'
+        <a href='https://drive.google.com/file/d/1qlhNH8dqxzUOcxyaMKuFn7Q8r4mjDfTf/view?usp=sharing'
         target='_blank'>
           <button>Download</button>
         </a>
