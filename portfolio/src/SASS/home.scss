@@ -3,17 +3,18 @@
 
 .home-container{
   width: 95%;
-  margin: 1rem auto;
-  margin-top: -2rem;
+  margin: 2rem auto;
+  margin-top: 4rem;
 
 
   .greeting{
     text-align: center;
-    border-bottom: 1.5px solid $color3;
+    margin-left: 2rem;
+    // border-bottom: 1.5px solid $color3;
 
       h1{
         font-size: 2.5rem;
-        color: $color2;
+        color: $color4;
         font-family: "Pacifico";
       }
   }
