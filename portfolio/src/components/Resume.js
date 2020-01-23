@@ -15,8 +15,7 @@ const Resume = () =>{
           url={ResumePDF}
         />
 
-        <a href='https://drive.google.com/file/d/1qlhNH8dqxzUOcxyaMKuFn7Q8r4mjDfTf/view?usp=sharing'
-        target='_blank'>
+        <a href='https://drive.google.com/file/d/1x-_o7wECZDm11r3Wr6l5UnuZv8qGRUZ7/view?usp=sharing'>
           <button>Download</button>
         </a>
       </div>
